@@ -51,47 +51,6 @@
         <div class="three column stackable ui grid">
             <div class="column">
                 <div class="ui form segment">
-                    <div class="field">
-                        <label for="">Client Name</label>
-                        <div class="ui left labeled input">
-                            <input type="text" placeholder="Digital Mockingbird"/>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <label for="">Primary Contact</label>
-                        <div class="ui left labeled input">
-                            <input type="text" placeholder="Name"/>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <label for="">Primary Phone</label>
-                        <div class="ui left labeled input">
-                            <input type="text" placeholder="1-123-123-1234"/>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <label for="">Primary Cell</label>
-                        <div class="ui left labeled input">
-                            <input type="text" placeholder="1-234-234-2345"/>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <label for="">Email</label>
-                        <div class="ui left labeled input">
-                            <input type="text" placeholder="Noah@Digitalmockingbird.com"/>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <label for="">Website</label>
-                        <div class="ui left labeled input">
-                            <input type="text" placeholder="www.digitalmockingbird.com"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="ui form segment">
                     <h3>Client Information</h3>
                     <div class="field">
                         <label for="">Client Name</label>
@@ -131,9 +90,11 @@
                     </div>
                 </div>
             </div>
-
+            <!-- End client information -->
+            <!-- Start primary shipping -->
             <div class="column">
                 <div class="ui form segment">
+                    <h3>Primary Shipping</h3>
                     <div class="field">
                         <label for="">Client Name</label>
                         <div class="ui left labeled input">
@@ -172,7 +133,44 @@
                     </div>
                 </div>
             </div>
-
+            <!--End primary shipping -->
+            <!--Start management info -->
+            <div class="column">
+                <div class="ui form segment">
+                    <!-- First dropdown -->
+                    <div class="ui menu">
+                        <div class="ui simple dropdown item">
+                            <label for="">Managing Office</label>
+                            Choose:
+                            <i class="dropdown icon"></i>
+                            <div class="menu">
+                                <div class="item">Warehouse A</div>
+                                <div class="item">Warehouse B</div>
+                                <div class="item">Warehouse C</div>
+                                <div class="item">Warehouse D</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End first dropdown -->
+                    <div class="field">
+                        <label for="">Managed By:</label>
+                        <input type="text" placeholder="Someone" />
+                    </div>
+                    <!-- Start second dropdown -->
+                    <div class="ui menu">
+                        <div class="ui simple dropdown item">
+                            <label for="">Status:</label>
+                            Active
+                            <i class="dropdown icon"></i>
+                            <div class="menu">
+                                <div class="item">Inactive</div>
+                                <div class="item">Stuck in limbo</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End dropdown -->
+                </div>
+            </div>
         </div>
     </div>
 
