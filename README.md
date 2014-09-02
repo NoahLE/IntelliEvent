@@ -15,6 +15,3 @@ IntelliEvent
 
 <h4>Tools</h4>
 <p>Photoshop</p>
-
-<h4>Links</h4>
-<p><a href="https://github.com/DigitalMockingbird/IntelliEvent">Check out the repo</a></p>
